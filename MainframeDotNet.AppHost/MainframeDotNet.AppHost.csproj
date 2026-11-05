@@ -1,0 +1,22 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.3">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net11.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AspireUseCliBundle>true</AspireUseCliBundle>
+        <UserSecretsId>8c198357-a251-45ff-ad8a-ebf306101a40</UserSecretsId>
+        <!-- WithTerminal is experimental. -->
+        <NoWarn>$(NoWarn);ASPIRETERMINAL001</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.5.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MainframeDotNet.Terminal\MainframeDotNet.Terminal.csproj" />
+    </ItemGroup>
+
+</Project>

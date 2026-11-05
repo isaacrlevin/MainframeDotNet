@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MainframeDotNet.AppHost/MainframeDotNet.AppHost.csproj" />
+  <Project Path="MainframeDotNet.Terminal/MainframeDotNet.Terminal.csproj" />
+</Solution>
